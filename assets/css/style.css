@@ -1,0 +1,197 @@
+body{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #dddddd;
+    color: #777777;
+    margin:0px;
+}
+
+div.container{
+   background-color: #dddddd;
+}
+
+
+
+div.header{
+    margin-top:0px;
+    font-family: 'Georgia',Times,Times New Roman, serif;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+}
+ 
+section{
+    height: 70px;
+}
+section.logo{
+    width: 250px;
+    height: 70px;
+    background: #4aaaa5;
+    float: left;
+    margin-left:200px;
+    text-align: center;
+    color:#fff;
+    font-weight:700;
+    font-size:24;
+    text-decoration: none;
+}
+section.nav{
+    float:right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-right: 200px;
+    margin-top: 15px;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    display: inline;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color:#4aaaa5;
+  }
+
+div.contentArea{
+    clear: both;
+    background-color: #dddddd;
+    padding-top:60px;
+}   
+
+div.main{  
+    width: 960px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: 50px 150px 70px 200px;
+    padding-left: 20px;
+    overflow: auto;
+} 
+
+h2{
+    color: #4aaaa5;
+}
+img{
+    height: 300px;
+    width:200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+
+}
+#selfImg{
+    float: left;
+}
+
+p{
+    line-height:1.5; 
+    margin-right: 20px;
+}
+
+div.imgDiv{
+position: relative;
+}
+
+#pkittycat, #pPalmCross, #pDoggyOne, #pDoggyTwo, #pLioness{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    margin-left: 12px;
+    width:200px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 35px;
+    padding-top: 10px;
+}
+
+div.footer{
+    clear: both;
+    background-color: #666666;
+    color:#ffffff;
+    height:30px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    border-top:10px solid #4aaaa5;   
+    margin-top: 70px #dddddd;
+
+}
+
+footer{
+    
+}
+/* Css Contacts */
+#name{
+    height:35px;
+    width:900px;
+}
+
+#email{
+    height:35px;
+    width:900px;
+}
+
+#message{
+    height:100px;
+    width:900px;
+}
+
+input[type=submit]{
+    background: #4aaaa5;
+    border: 0 none;
+    color:#fff;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Css Portfolio */
+img.portfolioImg{
+    height: 200px;
+    width:200px;
+    margin: 10px;
+}
+
+
+
+#kittycat{
+   
+
+}
+#palmcross{
+    
+}
+
+#doggyOne{
+  
+    
+    position:relative;
+}
+
+#doggyTwo{
+
+}
